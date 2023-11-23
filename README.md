@@ -42,18 +42,6 @@ Sublists are also possible.
 + Item
 ```
 
-Ordered lists can also be manually numbered.
-
-```
-1. Item
-	1.1. Sub-Item
-		1.1.1. Sub-Sub-Item
-2. Item
-2.1. Sub-Item
-3. Item
-```
-
-
 ## Inline Markup
 
 The following rules count for all inline markup:
@@ -87,21 +75,21 @@ _* This is also not *_
 ```
 
 ###  Inline-Code
-Begins with \` and ends with \`.
+Begins with { and ends with }.
 ```
-`valid`
-` not valid `
+{valid}
+{ not valid }
 ```
 
 ## Pre Block
 
-Begins with \`\`\` on its own line and ends with \`\`\` on its own line.
-````
+Begins with {{{ on its own line and ends with }}} on its own line.
 ```
+{{{
 	this is
  preformatted.
+}}}
 ```
-````
 
 ## Keywords
 
